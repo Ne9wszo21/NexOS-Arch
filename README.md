@@ -8,7 +8,7 @@
 /_/ |_/\___/_/|_|\____//____/
 ```
 
-**A beginner-friendly distro built on advanced bases.**
+**a beginner-friendly distro with no bloat and advanced distros.**
 
 Arch · Alpine · Gentoo · NixOS, with one installer and one toolset on top.
 
@@ -16,22 +16,22 @@ Arch · Alpine · Gentoo · NixOS, with one installer and one toolset on top.
 
 ---
 
-## What is NexOS?
+## so what is NexOS?
 
 NexOS makes powerful Linux bases approachable. Instead of another "easy" distro built on a beginner-oriented foundation, NexOS gives you a friendly install and a unified toolset on top of the advanced systems: **Arch**, **Alpine**, **Gentoo**, and **NixOS**. You pick the base, and NexOS handles the rest.
 
-> **Status:** early development. Bases are being built one at a time: Arch first, then Alpine, Gentoo, and NixOS.
+> **status:** early development. Bases are being built one at a time.
 
-## Features
+## features
 
-- **Choose your base.** Arch, Alpine, Gentoo, or NixOS, each with its own installer ISO.
-- **Graphical installer.** Boots into Xorg with Openbox and launches [Calamares](https://calamares.io) directly, including user account setup.
-- **Ready-to-use desktop.** Each ISO ships with a pre-configured, themed desktop baked in, so you get a working system right after install.
-- **Pick your desktop and apps.** A netinstall step after the base install lets you choose your DE/WM and applications. It is also used for system updates.
-- **Rice importer.** Choose a DE and apps and import a rice (theme setup) hosted on GitHub.
-- **Unified package manager: `tpkg`.** One command set across every base.
-- **Easy rollback: `i-wanna-go-back`.** Revert system changes using Btrfs and Snapper.
-- **Lean ISOs.** Target size is under 3 GB, with no bloat.
+- **choose your base.** Arch, Alpine, Gentoo, or NixOS, each with its own installer ISO.
+- **graphical installer.** Boots into Xorg with Openbox and launches [Calamares](https://calamares.io) directly, including user account setup.
+- **ready-to-use desktop.** Each ISO ships with a pre-configured, themed desktop baked in, so you get a working system right after install.
+- **pick your desktop and apps.** A netinstall step after the base install lets you choose your DE/WM and applications. It is also used for system updates.
+- **rice importer.** Choose a DE and apps and import a rice (theme setup) hosted on GitHub.
+- **unified package manager: `tpkg`.** One command set across every base.
+- **easy rollback: `i-wanna-go-back`.** Revert system changes using Btrfs and Snapper.
+- **lean ISOs.** Target size is under 3 GB, with no bloat.
 
 ## Supported desktops
 
@@ -39,7 +39,7 @@ XFCE, KDE, Hyprland, Sway, i3, LXDE, LXQt, and more. Each gets a custom NexOS ri
 
 ## `tpkg`
 
-A wrapper that gives you the same commands no matter which base you installed.
+a custom package manager based on the distro you choosed.
 
 | Command | Description |
 | --- | --- |
@@ -51,13 +51,13 @@ A wrapper that gives you the same commands no matter which base you installed.
 
 ## Rollback
 
-Made a mess? Run:
+screwed up? run:
 
 ```
 i-wanna-go-back
 ```
 
-It uses Btrfs snapshots (via Snapper) to take you back to an earlier working state.
+it uses Btrfs snapshots (via Snapper) to take you back to an earlier working state.
 
 ## How it works
 
@@ -68,7 +68,7 @@ It uses Btrfs snapshots (via Snapper) to take you back to an earlier working sta
 
 ## Releases
 
-Release and build codenames follow the NATO phonetic alphabet: Alpha, Bravo, Charlie, and so on.
+release and build codenames follow the NATO phonetic alphabet: Alpha, Bravo, Charlie, and so on.
 
 ## Building
 
@@ -76,11 +76,8 @@ Build instructions for each base will be added as they land. The Arch ISO build 
 
 ## Contributing
 
-Issues and pull requests are welcome. Open an issue before starting on a big change so we can talk it through.
+issues and pull requests are welcome. Open an issue before starting on a big change so we can talk it through.
 
-## License
-
-TBD
 
 ---
 
